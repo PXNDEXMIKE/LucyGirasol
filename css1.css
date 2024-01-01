@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url('fondo2.png') ;
+}
+
+@keyframes rotateSunflower {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.sunflower-container {
+  position: relative;
+  width: 400px; 
+  height: 400px; 
+  animation: rotateSunflower 20s infinite linear;
+}
+
+.petal {
+  position: absolute;
+  width: 50px;
+  height: 290px; 
+  background: url('p1.png') center/cover;
+  border-radius: 70% 90% 160% 160%; 
+  top: 15%;
+  left: 69%;
+  transform: translate(-20%, -50%);
+}
+
+.text-box {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(0%, 20%);
+  padding: 50px; 
+  background: url('semillas1.png') center/cover; 
+  border: 1px solid #333;
+  border-radius: 90%; 
+  color: #fff; 
+  font-weight: bold;
+    font-size: 22px; 
+    width: 119px;
+  height: 119px;
+}
+
+.options label {
+  color: #fff; 
+    font-size: 22px;
+}
+
+
+.petal:nth-child(1) { transform: rotate(0deg) translate(0, -50%); }
+.petal:nth-child(2) { transform: rotate(18deg) translate(0, -50%); }
+.petal:nth-child(3) { transform: rotate(36deg) translate(0, -50%); }
+.petal:nth-child(4) { transform: rotate(54deg) translate(0, -50%); }
+.petal:nth-child(5) { transform: rotate(72deg) translate(0, -50%); }
+.petal:nth-child(6) { transform: rotate(90deg) translate(0, -50%); }
+.petal:nth-child(7) { transform: rotate(108deg) translate(0, -50%); }
+.petal:nth-child(8) { transform: rotate(126deg) translate(0, -50%); }
+.petal:nth-child(9) { transform: rotate(144deg) translate(0, -50%); }
+.petal:nth-child(10) { transform: rotate(162deg) translate(0, -50%); }
+.petal:nth-child(11) { transform: rotate(180deg) translate(0, -50%); }
+.petal:nth-child(12) { transform: rotate(198deg) translate(0, -50%); }
+.petal:nth-child(13) { transform: rotate(216deg) translate(0, -50%); }
+.petal:nth-child(14) { transform: rotate(234deg) translate(0, -50%); }
+.petal:nth-child(15) { transform: rotate(252deg) translate(0, -50%); }
+.petal:nth-child(16) { transform: rotate(270deg) translate(0, -50%); }
+.petal:nth-child(17) { transform: rotate(288deg) translate(0, -50%); }
+.petal:nth-child(18) { transform: rotate(306deg) translate(0, -50%); }
+.petal:nth-child(19) { transform: rotate(324deg) translate(0, -50%); }
+.petal:nth-child(20) { transform: rotate(342deg) translate(0, -50%); }
